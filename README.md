@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **MERN Stack**
 
-- 👨‍💻 All of my projects are available at [https://shravan04-portfolio.netlify.app/](https://shravan04-portfolio.netlify.app/)
+- 👨‍💻 All of my projects are available at [https://portfolio-shravan.netlify.app/](https://portfolio-shravan.netlify.app/)
 
 - 💬 Ask me about **UI UX Design , SEO ready to here help you**
 
