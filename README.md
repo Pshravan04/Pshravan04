@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **shravanphutanr@gmail.com**
 
-- 📄 Know about my experiences [file:///C:/Users/hp202/AppData/Local/Microsoft/Windows/INetCache/IE/E270S2GL/shravan%20resume%20(2)[1].pdf](file:///C:/Users/hp202/AppData/Local/Microsoft/Windows/INetCache/IE/E270S2GL/shravan%20resume%20(2)[1].pdf)
+- 📄 Know about my experiences [https://www.linkedin.com/ambry/?x-li-ambry-ep=AQI6Zg8KKigSVQAAAZgYq4jeqYQ_OoIVubX3gUqtcfWG_nsYKuJMfkrQQAlXdG8ikkr3SJUmyrdSOmL5Yqs2khPvuam5ux1MbwbU0F5YLRriK0ZCEyLX0_WzEhOJQ-OTFNMDn-YlJgOSR9Uo236q4xxvxJA3265HzFs0f09Spo3PCXdYUBKHy9TkhDDgUC3w8hj4mjaILSlXqqBPC9vR9C5c1QJuplW4x51Gl6BepQBMKbL-F4Ydnq0B25JOBlhybxYh4fgaMpLjIBYy1jLZW5pecZ8buZ8DBRkpTqv5jFb2Nh6RDhnfyllnGmeR14D1Z-lcbb5VfnS-Yz0JalX6YbdM0C5qraey9QuFukYjRQWz8APLRUdL1QoBxub9-ubljbiQ1zxEfwUTfUaw7Uk9O__cRpiR_HU4HlA7h_cxpeHlG_bW9j52pxIFrhU_5wmfVtG_L7FvGRmLqInsAN5QLhbOEY2-E606q1C1i6zSoy6eBJoLBnc_8bvST3CTtfs8dFIMQeCrhuEa3qAaxRw4roA5ky_Af7Uw9_Emjo60YelRKZncRsbBDjM76XCOH_ESwcyPWjJ8&lipi=urn%3Ali%3Apage%3Ad_flagship3_job_details%3BplSlOiOpR6GHoAhhWMZJ7w%3D%3D)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
