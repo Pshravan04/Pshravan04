@@ -1,25 +1,68 @@
-<h1 align="center">Hi 👋, I'm Shravan Phutane</h1>
-<h3 align="center">I am a frontend web developer with a passion for creating responsive designs and engaging layouts. With strong skills in animation, I bring websites to life, ensuring an interactive user experience. Additionally, I am a proficient UI/UX designer, SEO specialist, and have a solid background in digital marketing. Since 2021, I have been honing my coding skills and continuously expanding my expertise in the dynamic field of web development.</h3>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=300&section=header&text=Shravan%20S.%20Phutane&fontSize=70&fontAlignY=35&desc=Web%20Designer%20%7C%20Developer%20%7C%20AI/ML%20Student&descAlignY=55&descAlign=50" alt="Shravan's Header" width="100%"/>
+</div>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pshravan04&label=Profile%20views&color=0e75b6&style=flat" alt="pshravan04" /> </p>
+<div align="center">
+  
+  ### 👋 Hello, World!
+  
+  I am a **Web Designer & Developer** and a **Student of AI & ML** at **Thakur College of Science & Commerce**. I bridge the gap between creative design and functional code, specializing in building responsive web solutions and exploring the future of Artificial Intelligence.
 
-- 🌱 I’m currently learning **MERN Stack**
+  ---
+  
+  <a href="https://github.com/your-username">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=500&lines=Building+Modern+Web+Experiences;Exploring+Cryptography+%26+Advanced+Java;Designing+with+Elementor+%26+PHP;Transforming+Ideas+into+Reality" alt="Typing SVG" />
+  </a>
 
-- 👨‍💻 All of my projects are available at [https://shravan-phutane-portfolio.netlify.app/](https://shravan-phutane-portfolio.netlify.app/)
+</div>
 
-- 💬 Ask me about **UI UX Design , SEO ready to here help you**
+<br/>
 
-- 📫 How to reach me **shravanphutanr@gmail.com**
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="50%" valign="top">
+      
+### 🚀 Current Focus & Learning
+- 🎓 **Academics:** Currently pursuing **FYBSC in AI & ML**.
+- 🔭 **Working on:** Freelance web design projects and real estate portals.
+- 🌱 **Learning:** Deepening knowledge in **Cryptography**, **Advanced Java**, and AI integration in web apps.
+- 🎨 **Design:** Creating unique UI/UX layouts and digital assets.
 
-- 📄 Know about my experiences [https://www.linkedin.com/ambry/?x-li-ambry-ep=AQI6Zg8KKigSVQAAAZgYq4jeqYQ_OoIVubX3gUqtcfWG_nsYKuJMfkrQQAlXdG8ikkr3SJUmyrdSOmL5Yqs2khPvuam5ux1MbwbU0F5YLRriK0ZCEyLX0_WzEhOJQ-OTFNMDn-YlJgOSR9Uo236q4xxvxJA3265HzFs0f09Spo3PCXdYUBKHy9TkhDDgUC3w8hj4mjaILSlXqqBPC9vR9C5c1QJuplW4x51Gl6BepQBMKbL-F4Ydnq0B25JOBlhybxYh4fgaMpLjIBYy1jLZW5pecZ8buZ8DBRkpTqv5jFb2Nh6RDhnfyllnGmeR14D1Z-lcbb5VfnS-Yz0JalX6YbdM0C5qraey9QuFukYjRQWz8APLRUdL1QoBxub9-ubljbiQ1zxEfwUTfUaw7Uk9O__cRpiR_HU4HlA7h_cxpeHlG_bW9j52pxIFrhU_5wmfVtG_L7FvGRmLqInsAN5QLhbOEY2-E606q1C1i6zSoy6eBJoLBnc_8bvST3CTtfs8dFIMQeCrhuEa3qAaxRw4roA5ky_Af7Uw9_Emjo60YelRKZncRsbBDjM76XCOH_ESwcyPWjJ8&lipi=urn%3Ali%3Apage%3Ad_flagship3_job_details%3BplSlOiOpR6GHoAhhWMZJ7w%3D%3D)
+    </td>
+    <td width="50%" valign="top">
+      
+### 🛠️ Tech Stack & Tools
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.sketch.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sketchapp/sketchapp-icon.svg" alt="sketch" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+<img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" />
+<img src="https://img.shields.io/badge/Elementor-92003B?style=for-the-badge&logo=elementor&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=pshravan04&show_icons=true&locale=en&layout=compact" alt="pshravan04" /></p>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+<img src="https://img.shields.io/badge/Adobe%20PS-31A8FF?style=for-the-badge&logo=adobe%20photoshop&logoColor=white" />
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pshravan04&" alt="pshravan04" /></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<div align="center">
+  <h3>📊 GitHub Stats</h3>
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME_HERE&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117" height="180" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME_HERE&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117" height="180" alt="languages graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <p>
+    <b>Let's Connect:</b><br/>
+    <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>
+    <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
+  </p>
+  <sub><i>"Design is not just what it looks like and feels like. Design is how it works."</i></sub>
+</div>
