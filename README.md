@@ -12,13 +12,13 @@
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" align="right" width="200" />
 
 <p align="left">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">
+  <a href="https://github.com/Pshravan04" target="_blank">
     <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_PROFILE" target="_blank">
+  <a href="https://linkedin.com/in/shravan-phutane" target="_blank">
     <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">
+  <a href="https://instagram.com/shravanweb" target="_blank">
     <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
@@ -43,13 +43,13 @@
 
 ### I'm an Early 🐤
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<a href="https://github.com/Pshravan04">
   <img src="https://github-readme-stats.vercel.app/api?username=Pshravan04&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
 </a>
 
 ### This Week I Spent My Time On
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<a href="https://github.com/Pshravan04">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pshravan04&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
 </a>
 
