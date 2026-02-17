@@ -44,13 +44,13 @@
 ### I'm an Early 🐤
 
 <a href="https://github.com/YOUR_GITHUB_USERNAME">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Pshravan04&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
 </a>
 
 ### This Week I Spent My Time On
 
 <a href="https://github.com/YOUR_GITHUB_USERNAME">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pshravan04&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
 </a>
 
 <p align="left">
