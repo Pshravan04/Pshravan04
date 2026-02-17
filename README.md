@@ -43,9 +43,7 @@
 
 ### I'm an Early 🐤
 
-<a href="https://github.com/Pshravan04">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pshravan04&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
-</a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Pshravan04&theme=highcontrast&hide_border=true&exclude_days=Sun%2CMon%2CTue%2CWed%2CThu%2CFri%2CSat" alt="GitHub Streak" /></a>
 
 ### This Week I Spent My Time On
 
