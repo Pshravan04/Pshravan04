@@ -1,77 +1,192 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=22C55E&center=true&vCenter=true&width=435&lines=Hi+👋+I'm+Shravan%20Phutane;Welcome+to+my+profile!" alt="Typing SVG" />
-</h1>
+# ☀️ SHRAVAN.OS — Developer Universe
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/151425983?u=e3b7a973a1049b4f75ed272edfc4c9679ca095db&v=4" width="150" style="border-radius: 50%;" alt="Shravan Phutane" />
-</p>
+<div align="center">
 
-## 👨‍💻 About Me
+```text
+ ███████╗██╗  ██╗██████╗  █████╗ ██╗   ██╗ █████╗ ███╗   ██╗
+ ██╔════╝██║  ██║██╔══██╗██╔══██╗██║   ██║██╔══██╗████╗  ██║
+ ███████╗███████║██████╔╝███████║██║   ██║███████║██╔██╗ ██║
+ ╚════██║██╔══██║██╔══██╗██╔══██║╚██╗ ██╔╝██╔══██║██║╚██╗██║
+ ███████║██║  ██║██║  ██║██║  ██║ ╚████╔╝ ██║  ██║██║ ╚████║
+ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝
+```
 
-I'm a frontend web developer , UI/UX designer  , SEO
+### `[ SYSTEM ONLINE ]` — Welcome to my universe!
 
-- 🌐 Check out my [website](https://shravan-phutane-portfolio.netlify.app/)
-- 👥 **4** followers · **2** following
+**FULL-STACK DEVELOPER · UI/UX DESIGNER · CREATIVE TECHNOLOGIST**
 
-## 🛠️ Languages & Tools
+[PORTFOLIO](https://shravan-phutane-portfolio.netlify.app/) · [GITHUB](https://github.com/Pshravan04)
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Profile Views](https://komarev.com/ghpvc/?username=Pshravan04&style=pixel&color=blueviolet)
 
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/premium-card?username=pshravan04&theme=aurora" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/languages?username=pshravan04&theme=aurora" alt="Top Languages" />
-</p>
-
-## 🚀 Featured Projects
-
-### [portfolio](https://github.com/Pshravan04/portfolio) `HTML`
-No description provided
-⭐ 0 | 🍴 0
-
-### [Skillup](https://github.com/Pshravan04/Skillup) `JavaScript`
-No description provided
-⭐ 0 | 🍴 0
-
-### [crime-report](https://github.com/Pshravan04/crime-report) `CSS`
-No description provided
-⭐ 0 | 🍴 0
-
-### [psmcodes.co](https://github.com/PSMcodes/psmcodes.co) `CSS`
-No description provided
-⭐ 0 | 🍴 0
-
-### [truva-real-estate](https://github.com/Pshravan04/truva-real-estate) `TypeScript`
-No description provided
-⭐ 0 | 🍴 0
-
-### [kd-arts-photographer](https://github.com/Pshravan04/kd-arts-photographer) `CSS`
-No description provided
-⭐ 0 | 🍴 0
-
-
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=pshravan04&theme=aurora&style=jet&mode=light" /><img src="https://www.gitskins.com/api/section/heatmap?username=pshravan04&theme=aurora&style=jet" alt="pshravan04 contribution activity, with a jet firing at their busiest days" /></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/highlights?username=pshravan04&theme=aurora&mode=light" /><img src="https://www.gitskins.com/api/section/highlights?username=pshravan04&theme=aurora" alt="pshravan04 highlights" /></picture>
-</p>
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=pshravan04&theme=aurora&website=https%3A%2F%2Fshravan-phutane-portfolio.netlify.app%2F&mode=light" /><img src="https://www.gitskins.com/api/section/social?username=pshravan04&theme=aurora&website=https%3A%2F%2Fshravan-phutane-portfolio.netlify.app%2F" alt="pshravan04 social links" /></picture>
-</p>
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pshravan04) [![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://shravan-phutane-portfolio.netlify.app/)
+</div>
 
 ---
 
-<p align="center">Profile README generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></p>
+## 🪪 PLAYER IDENTITY CARD
+
+<table>
+<tr>
+<td width="35%" align="center">
+
+<img src="https://github.com/Pshravan04.png" width="160" alt="Shravan's GitHub avatar"/>
+
+### SHRAVAN PHUTANE
+
+`PLAYER ID: PSHRAVAN04`
+
+**LEVEL 21 · DEVELOPER**
+
+</td>
+<td width="65%">
+
+```yaml
+NAME: Shravan Phutane
+USERNAME: Pshravan04
+CLASS: Full-Stack Developer
+SPECIALIZATION:
+  - Web Development
+  - UI/UX Engineering
+  - E-commerce Development
+  - SEO & Digital Experiences
+
+CURRENT_MISSION:
+  Building useful digital products
+  and exploring open source.
+
+STATUS: Always Building
+LOCATION: India 🇮🇳
+```
+
+</td>
+</tr>
+</table>
+
+> I turn ideas into functional digital experiences. I enjoy working across frontend, backend, UI/UX and product development — from designing interfaces to building complete applications.
+
+---
+
+## ☀️ THE DEVELOPER SOLAR SYSTEM
+
+**One developer. Multiple projects. One universe.**
+
+The Sun represents my GitHub identity. Every planet represents a project I've built, explored or contributed to.
+
+<div align="center">
+
+```text
+                         .       ✦
+              ·                    *
+       .                🪐
+                    .-~~~~-.
+                  .'        '.
+                 /    ☀️      \
+                |   SHRAVAN    |
+                 \  GITHUB    /
+                  '.________.'
+                       |
+              .--------+--------.
+             /         |         \
+          🟠           🔵          🟢
+       PORTFOLIO     TRUVA       SKILLUP
+             \         |         /
+              '--------+--------'
+                       |
+                  🟣       🔴
+               PSMCODES  CRIME-REPORT
+                       |
+                      ⚪
+                  KD-ARTS
+```
+
+</div>
+
+### 🪐 Planet Directory
+
+| Planet | Repository | Description |
+|---|---|---|
+| ☀️ Sun | [Pshravan04](https://github.com/Pshravan04) | My developer identity |
+| 🟠 Mercury | [portfolio](https://github.com/Pshravan04/portfolio) | Personal portfolio |
+| 🔵 Earth | [truva-real-estate](https://github.com/Pshravan04/truva-real-estate) | Real estate project |
+| 🟢 Venus | [Skillup](https://github.com/Pshravan04/Skillup) | JavaScript project |
+| 🟣 Mars | [psmcodes.co](https://github.com/PSMcodes/psmcodes.co) | Company website |
+| 🔴 Jupiter | [crime-report](https://github.com/Pshravan04/crime-report) | Reporting project |
+| ⚪ Saturn | [kd-arts-photographer](https://github.com/Pshravan04/kd-arts-photographer) | Photography website |
+
+*Explore the planets to discover their source code.*
+
+---
+
+## 🛠️ DEVELOPER INVENTORY
+
+### Languages & Frameworks
+
+![HTML5](https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css3&logoColor=1572B6)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-111111?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-111111?style=flat-square&logo=mongodb&logoColor=47A248)
+![PHP](https://img.shields.io/badge/PHP-111111?style=flat-square&logo=php&logoColor=777BB4)
+![MySQL](https://img.shields.io/badge/MySQL-111111?style=flat-square&logo=mysql&logoColor=4479A1)
+
+### Design & Development Tools
+
+![Figma](https://img.shields.io/badge/Figma-111111?style=flat-square&logo=figma&logoColor=F24E1E)
+![WordPress](https://img.shields.io/badge/WordPress-111111?style=flat-square&logo=wordpress&logoColor=21759B)
+![Shopify](https://img.shields.io/badge/Shopify-111111?style=flat-square&logo=shopify&logoColor=7AB55C)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-111111?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=F05032)
+![GitHub](https://img.shields.io/badge/GitHub-111111?style=flat-square&logo=github&logoColor=white)
+
+---
+
+## 📊 MISSION CONTROL
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Pshravan04&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pshravan04&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&text_color=8B949E" />
+
+<img width="95%" src="https://streak-stats.demolab.com?user=Pshravan04&theme=transparent&hide_border=true&ring=58A6FF&fire=FFAA00&currStreakLabel=58A6FF" />
+
+</div>
+
+---
+
+## 🚀 CURRENT MISSIONS
+
+- Building full-stack web applications.
+- Exploring AI-powered developer tools and agents.
+- Improving UI/UX and frontend engineering.
+- Exploring open-source projects and contributing to developer communities.
+- Turning creative ideas into working products.
+
+---
+
+## 📡 ESTABLISH CONNECTION
+
+<div align="center">
+
+**Have an interesting project or idea? Let's build something.**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shravan-phutane-portfolio.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pshravan04)
+
+</div>
+
+---
+
+<div align="center">
+
+```text
+       END OF TRANSMISSION
+   [ KEEP BUILDING. KEEP EXPLORING. ]
+```
+
+**Made with ☕ and lots of `</>` by Shravan Phutane**
+
+</div>
