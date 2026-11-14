@@ -68,6 +68,6 @@
 ### `03 // GITHUB MISSION LOGS`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Pshravan04&show_icons=true&bg_color=0a0b10&title_color=22d3ee&text_color=e2e8f0&icon_color=f59e0b&border_color=1e293b&hide_border=false" alt="GitHub Stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pshravan04&theme=tokyonight" alt="GitHub Stats" />
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Pshravan04&background=0a0b10&border=1e293b&stroke=1e293b&ring=22d3ee&fire=f59e0b&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=22d3ee&sideLabels=64748b&dates=64748b" alt="GitHub Streak" />
 </div>
