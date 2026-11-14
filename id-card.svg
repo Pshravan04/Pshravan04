@@ -1,73 +1,263 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" width="100%" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 350" width="100%" height="350">
+  <defs>
+    <!-- Ambient Background Gradients -->
+    <linearGradient id="bg-base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06080f" />
+      <stop offset="50%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#070913" />
+    </linearGradient>
+
+    <linearGradient id="border-shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="35%" stop-color="#1e293b" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#1e293b" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="glass-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.65" />
+    </linearGradient>
+
+    <linearGradient id="cyan-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+
+    <linearGradient id="emerald-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <linearGradient id="amber-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+
+    <linearGradient id="purple-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="scan-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Subtle Cyber Grid Pattern -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.45" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="ambient-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45" />
+    </filter>
+  </defs>
+
   <style>
-    .bg { fill: #0a0b10; }
-    .border-outer { fill: none; stroke: #22d3ee; stroke-width: 4; }
-    .border-inner { fill: none; stroke: #1e293b; stroke-width: 2; }
-    .title-bar { fill: #111827; }
-    .pixel-text { font-family: Courier New, Courier, monospace; font-weight: bold; fill: #f8fafc; }
-    .label { font-family: Courier New, Courier, monospace; font-weight: bold; fill: #64748b; font-size: 12px; }
-    .value { font-family: Courier New, Courier, monospace; font-weight: bold; fill: #e2e8f0; font-size: 13px; }
-    .accent { fill: #22d3ee; }
-    .amber { fill: #f59e0b; }
-    .green { fill: #10b981; }
-    .blink { animation: pulse 1.2s steps(2, start) infinite; }
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+    .ui-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif; }
+    .ui-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    
+    .bento {
+      fill: url(#glass-card);
+      stroke: #334155;
+      stroke-width: 1;
+      transition: all 0.25s ease;
+      cursor: pointer;
+    }
+    .bento-group:hover .bento {
+      stroke: #38bdf8;
+      fill: #1e293b;
+      transform: translateY(-2px);
+    }
+
+    .scanline {
+      animation: scanMove 3.2s ease-in-out infinite;
+    }
+    .pulse-dot {
+      animation: pulseGlow 1.8s ease-in-out infinite;
+    }
+    .bar-1 { animation: grow1 1.4s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+    .bar-2 { animation: grow2 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+    .bar-3 { animation: grow3 1.8s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+    .bar-4 { animation: grow4 2.0s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+
+    @keyframes scanMove {
+      0%, 100% { transform: translateY(0px); opacity: 0.2; }
+      50% { transform: translateY(138px); opacity: 0.95; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    @keyframes grow1 { from { width: 0px; } to { width: 205px; } }
+    @keyframes grow2 { from { width: 0px; } to { width: 190px; } }
+    @keyframes grow3 { from { width: 0px; } to { width: 184px; } }
+    @keyframes grow4 { from { width: 0px; } to { width: 200px; } }
   </style>
 
-  <rect width="700" height="280" class="bg" />
-  <rect x="6" y="6" width="688" height="268" class="border-outer" />
-  <rect x="12" y="12" width="676" height="256" class="border-inner" />
+  <!-- Main Outer Window Container -->
+  <rect x="4" y="4" width="852" height="342" rx="16" fill="url(#bg-base)" />
+  <rect x="4" y="4" width="852" height="342" rx="16" fill="url(#grid)" />
 
-  <rect x="4" y="4" width="10" height="10" class="accent" />
-  <rect x="686" y="4" width="10" height="10" class="accent" />
-  <rect x="4" y="266" width="10" height="10" class="accent" />
-  <rect x="686" y="266" width="10" height="10" class="accent" />
+  <!-- Ambient Neon Orbs -->
+  <circle cx="140" cy="90" r="85" fill="#0ea5e9" opacity="0.14" filter="url(#ambient-blur)" />
+  <circle cx="720" cy="260" r="95" fill="#8b5cf6" opacity="0.14" filter="url(#ambient-blur)" />
 
-  <rect x="14" y="14" width="672" height="32" class="title-bar" />
-  <rect x="24" y="25" width="10" height="10" class="green blink" />
-  <text x="44" y="35" class="pixel-text" font-size="14">DEV_ID // CITIZEN_PASS: #PSP-04</text>
-  <text x="530" y="35" class="pixel-text accent" font-size="13">[ LVL 20 SOLO DEV ]</text>
+  <!-- Outer Specular Border -->
+  <rect x="4" y="4" width="852" height="342" rx="16" fill="none" stroke="url(#border-shine)" stroke-width="2" />
 
-  <rect x="30" y="64" width="140" height="140" fill="#111827" stroke="#22d3ee" stroke-width="3" />
-  <rect x="76" y="88" width="48" height="44" fill="#f59e0b" />
-  <rect x="72" y="82" width="56" height="14" fill="#22d3ee" />
-  <rect x="86" y="104" width="8" height="8" fill="#0a0b10" />
-  <rect x="106" y="104" width="8" height="8" fill="#0a0b10" />
-  <rect x="92" y="120" width="16" height="4" fill="#0a0b10" />
-  <rect x="64" y="136" width="72" height="50" fill="#1e293b" />
-  <rect x="84" y="136" width="32" height="50" fill="#22d3ee" />
+  <!-- Top OS Window Chrome Bar -->
+  <path d="M 4 20 Q 4 4 20 4 L 840 4 Q 856 4 856 20 L 856 46 L 4 46 Z" fill="#0f172a" fill-opacity="0.85" />
+  <line x1="4" y1="46" x2="856" y2="46" stroke="#1e293b" stroke-width="1" />
 
-  <rect x="30" y="216" width="140" height="32" fill="#111827" stroke="#1e293b" stroke-width="2" />
-  <text x="45" y="237" class="pixel-text amber" font-size="12">STATUS: ONLINE</text>
+  <!-- Window Traffic Lights -->
+  <circle cx="28" cy="25" r="6" fill="#ef4444" />
+  <circle cx="48" cy="25" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="25" r="6" fill="#10b981" />
 
-  <text x="195" y="80" class="label">OPERATIVE NAME</text>
-  <text x="195" y="98" class="pixel-text" font-size="18">SHRAVAN S. PHUTANE</text>
+  <!-- Window Title -->
+  <text x="92" y="29" class="ui-mono" fill="#94a3b8" font-size="12" font-weight="600">shravan://identity-card.os — v3.2</text>
 
-  <text x="195" y="126" class="label">CLASSIFICATION</text>
-  <text x="195" y="144" class="value accent">Full-Stack Dev + Creative Tech</text>
+  <!-- Right Status Pill -->
+  <rect x="678" y="13" width="158" height="24" rx="12" fill="#064e3b" fill-opacity="0.5" stroke="#10b981" stroke-width="1" />
+  <circle cx="694" cy="25" r="4" fill="#10b981" class="pulse-dot" filter="url(#glow)" />
+  <text x="706" y="29" class="ui-mono" fill="#6ee7b7" font-size="11" font-weight="bold">AVAILABLE FOR WORK</text>
 
-  <text x="195" y="172" class="label">HOME SECTOR</text>
-  <text x="195" y="190" class="value">Mumbai (MMR), India</text>
+  <!-- ================= LEFT PANEL: HOLOGRAPHIC AVATAR ================= -->
+  <g transform="translate(24, 64)">
+    <rect x="0" y="0" width="176" height="262" rx="12" fill="url(#glass-card)" stroke="#334155" stroke-width="1" />
+    
+    <!-- Avatar Viewport -->
+    <rect x="14" y="14" width="148" height="154" rx="8" fill="#090d16" stroke="#0ea5e9" stroke-width="1.2" />
+    
+    <!-- Stylized Cyber Developer Avatar -->
+    <circle cx="88" cy="70" r="26" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+    <!-- Glowing Cyber Visor -->
+    <rect x="70" y="62" width="36" height="10" rx="4" fill="#22d3ee" filter="url(#glow)" />
+    <rect x="74" y="64" width="12" height="3" rx="1" fill="#ffffff" />
+    <!-- Shoulders / Hoodie -->
+    <path d="M 42 152 C 42 114 134 114 134 152 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+    <path d="M 74 118 L 88 144 L 102 118" fill="none" stroke="#22d3ee" stroke-width="2" />
 
-  <text x="195" y="218" class="label">GUILD / MODE</text>
-  <text x="195" y="236" class="value amber">Solo Freelancer // BCA</text>
+    <!-- Animated Hologram Laser Scanline -->
+    <g class="scanline">
+      <rect x="15" y="15" width="146" height="18" fill="url(#scan-grad)" />
+      <line x1="15" y1="33" x2="161" y2="33" stroke="#22d3ee" stroke-width="1.5" />
+    </g>
 
-  <rect x="450" y="64" width="220" height="184" fill="#0f172a" stroke="#1e293b" stroke-width="2" />
-  <text x="466" y="86" class="pixel-text accent" font-size="13">SYSTEM TELEMETRY</text>
+    <!-- Corner HUD Brackets -->
+    <path d="M 20 28 L 20 20 L 28 20" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 156 28 L 156 20 L 148 20" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 20 154 L 20 162 L 28 162" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 156 154 L 156 162 L 148 162" fill="none" stroke="#38bdf8" stroke-width="2" />
 
-  <text x="466" y="112" class="label">FRONTEND (React/Next)</text>
-  <rect x="466" y="118" width="180" height="10" fill="#1e293b" />
-  <rect x="466" y="118" width="168" height="10" fill="#22d3ee" />
+    <!-- ID Metadata Footer -->
+    <text x="16" y="192" class="ui-mono" fill="#38bdf8" font-size="11" font-weight="bold">ID // #PSP-04-MMR</text>
+    <text x="16" y="210" class="ui-sans" fill="#94a3b8" font-size="11">Clearance: Level 20</text>
 
-  <text x="466" y="148" class="label">BACKEND (Node/Py/DB)</text>
-  <rect x="466" y="154" width="180" height="10" fill="#1e293b" />
-  <rect x="466" y="154" width="155" height="10" fill="#10b981" />
+    <!-- Vector Barcode -->
+    <g transform="translate(16, 224)" fill="#64748b">
+      <rect x="0" y="0" width="3" height="22" /><rect x="6" y="0" width="1.5" height="22" />
+      <rect x="11" y="0" width="4" height="22" /><rect x="18" y="0" width="2" height="22" />
+      <rect x="24" y="0" width="1.5" height="22" /><rect x="29" y="0" width="5" height="22" />
+      <rect x="37" y="0" width="2" height="22" /><rect x="42" y="0" width="3" height="22" />
+      <rect x="49" y="0" width="1.5" height="22" /><rect x="54" y="0" width="4" height="22" />
+      <rect x="62" y="0" width="2" height="22" /><rect x="67" y="0" width="5" height="22" />
+      <rect x="75" y="0" width="1.5" height="22" /><rect x="80" y="0" width="3" height="22" />
+      <rect x="86" y="0" width="4" height="22" /><rect x="94" y="0" width="2" height="22" />
+      <rect x="99" y="0" width="1.5" height="22" /><rect x="104" y="0" width="5" height="22" />
+      <rect x="112" y="0" width="2" height="22" /><rect x="118" y="0" width="3" height="22" />
+      <rect x="124" y="0" width="4" height="22" /><rect x="131" y="0" width="1.5" height="22" />
+      <rect x="136" y="0" width="3" height="22" /><rect x="141" y="0" width="2" height="22" />
+    </g>
+  </g>
 
-  <text x="466" y="184" class="label">MOBILE + UI (Flutter/Figma)</text>
-  <rect x="466" y="190" width="180" height="10" fill="#1e293b" />
-  <rect x="466" y="190" width="145" height="10" fill="#f59e0b" />
+  <!-- ================= CENTER PANEL: DEVELOPER DOSSIER & BENTO GRID ================= -->
+  <g transform="translate(218, 64)">
+    <!-- Header Dossier -->
+    <rect x="0" y="0" width="346" height="96" rx="12" fill="url(#glass-card)" stroke="#334155" stroke-width="1" />
+    <text x="20" y="28" class="ui-mono" fill="#38bdf8" font-size="11" font-weight="bold">OPERATIVE DOSSIER</text>
+    <text x="20" y="56" class="ui-sans" fill="#f8fafc" font-size="22" font-weight="800">Shravan S. Phutane</text>
+    <!-- Verified Check Badge -->
+    <circle cx="242" cy="49" r="9" fill="#0ea5e9" />
+    <path d="M 238 49 L 241 52 L 247 46" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+    <text x="20" y="78" class="ui-sans" fill="#94a3b8" font-size="13" font-weight="500">Full-Stack Developer • Creative Technologist</text>
 
-  <text x="466" y="220" class="label">AI + VIBE WORKFLOWS</text>
-  <rect x="466" y="226" width="180" height="10" fill="#1e293b" />
-  <rect x="466" y="226" width="172" height="10" fill="#a855f7" />
+    <!-- Bento Box 1: Base Sector -->
+    <g class="bento-group" transform="translate(0, 110)">
+      <rect x="0" y="0" width="166" height="70" rx="10" class="bento" />
+      <text x="16" y="24" class="ui-mono" fill="#64748b" font-size="10" font-weight="bold">BASE SECTOR</text>
+      <text x="16" y="46" class="ui-sans" fill="#e2e8f0" font-size="14" font-weight="700">Mumbai (MMR), IN</text>
+      <text x="16" y="61" class="ui-mono" fill="#38bdf8" font-size="10">19.45° N, 72.80° E</text>
+    </g>
+
+    <!-- Bento Box 2: Operating Mode -->
+    <g class="bento-group" transform="translate(180, 110)">
+      <rect x="0" y="0" width="166" height="70" rx="10" class="bento" />
+      <text x="16" y="24" class="ui-mono" fill="#64748b" font-size="10" font-weight="bold">EXECUTION MODE</text>
+      <text x="16" y="46" class="ui-sans" fill="#fbbf24" font-size="14" font-weight="700">Solo Freelancer</text>
+      <text x="16" y="61" class="ui-mono" fill="#94a3b8" font-size="10">End-to-End Delivery</text>
+    </g>
+
+    <!-- Bento Box 3: Architecture Focus -->
+    <g class="bento-group" transform="translate(0, 192)">
+      <rect x="0" y="0" width="166" height="70" rx="10" class="bento" />
+      <text x="16" y="24" class="ui-mono" fill="#64748b" font-size="10" font-weight="bold">SPECIALIZATION</text>
+      <text x="16" y="46" class="ui-sans" fill="#34d399" font-size="14" font-weight="700">SaaS + PropTech</text>
+      <text x="16" y="61" class="ui-mono" fill="#94a3b8" font-size="10">Full-Stack Web + App</text>
+    </g>
+
+    <!-- Bento Box 4: Academic & Guild -->
+    <g class="bento-group" transform="translate(180, 192)">
+      <rect x="0" y="0" width="166" height="70" rx="10" class="bento" />
+      <text x="16" y="24" class="ui-mono" fill="#64748b" font-size="10" font-weight="bold">CREDENTIALS</text>
+      <text x="16" y="46" class="ui-sans" fill="#c084fc" font-size="14" font-weight="700">BCA Final Year</text>
+      <text x="16" y="61" class="ui-mono" fill="#94a3b8" font-size="10">Thakur College</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT PANEL: SYSTEM TELEMETRY ================= -->
+  <g transform="translate(582, 64)">
+    <rect x="0" y="0" width="254" height="262" rx="12" fill="url(#glass-card)" stroke="#334155" stroke-width="1" />
+    <text x="20" y="28" class="ui-mono" fill="#38bdf8" font-size="11" font-weight="bold">SYSTEM TELEMETRY</text>
+    <text x="200" y="28" class="ui-mono" fill="#64748b" font-size="10">LIVE</text>
+
+    <!-- Skill 1 -->
+    <text x="20" y="58" class="ui-sans" fill="#e2e8f0" font-size="12" font-weight="600">Frontend (React / Next.js)</text>
+    <text x="208" y="58" class="ui-mono" fill="#22d3ee" font-size="11" font-weight="bold">95%</text>
+    <rect x="20" y="66" width="214" height="8" rx="4" fill="#090d16" />
+    <rect x="20" y="66" width="205" height="8" rx="4" fill="url(#cyan-bar)" class="bar-1" />
+
+    <!-- Skill 2 -->
+    <text x="20" y="104" class="ui-sans" fill="#e2e8f0" font-size="12" font-weight="600">Backend (Node / Python / DB)</text>
+    <text x="208" y="104" class="ui-mono" fill="#34d399" font-size="11" font-weight="bold">89%</text>
+    <rect x="20" y="112" width="214" height="8" rx="4" fill="#090d16" />
+    <rect x="20" y="112" width="190" height="8" rx="4" fill="url(#emerald-bar)" class="bar-2" />
+
+    <!-- Skill 3 -->
+    <text x="20" y="150" class="ui-sans" fill="#e2e8f0" font-size="12" font-weight="600">Mobile + UI (Flutter / Figma)</text>
+    <text x="208" y="150" class="ui-mono" fill="#fbbf24" font-size="11" font-weight="bold">86%</text>
+    <rect x="20" y="158" width="214" height="8" rx="4" fill="#090d16" />
+    <rect x="20" y="158" width="184" height="8" rx="4" fill="url(#amber-bar)" class="bar-3" />
+
+    <!-- Skill 4 -->
+    <text x="20" y="196" class="ui-sans" fill="#e2e8f0" font-size="12" font-weight="600">AI + Vibe Coding Workflows</text>
+    <text x="208" y="196" class="ui-mono" fill="#c084fc" font-size="11" font-weight="bold">93%</text>
+    <rect x="20" y="204" width="214" height="8" rx="4" fill="#090d16" />
+    <rect x="20" y="204" width="200" height="8" rx="4" fill="url(#purple-bar)" class="bar-4" />
+
+    <!-- Bottom Live Activity Waveform -->
+    <line x1="20" y1="228" x2="234" y2="228" stroke="#1e293b" stroke-width="1" />
+    <text x="20" y="246" class="ui-mono" fill="#64748b" font-size="10">COMMIT PULSE</text>
+    <polyline points="115,244 130,244 136,235 142,251 148,232 154,248 160,240 168,244 226,244" fill="none" stroke="#22d3ee" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="226" cy="244" r="3.5" fill="#22d3ee" class="pulse-dot" filter="url(#glow)" />
+  </g>
 </svg>
